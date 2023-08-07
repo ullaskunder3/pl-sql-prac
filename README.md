@@ -14,25 +14,52 @@ varchar, int, date, float, boolean
 step 1:
 CREATE TABLE student ();
 
+## Real world example REST API with MariaDB sql
+
+This API allows you to perform CRUD operations (Create, Read, Update, Delete) on user records stored in a MariaDB database.
+
+project link
+[User REST API](https://github.com/ullaskunder3/meriaDB-nodejs-restapi)
+
 ## With MariaDb
 
-- sudo systemctl status mariadb
-- sudo systemctl enable mariadb
-- sudo systemctl start mariadb
+```bash
+sudo systemctl enable mariadb
+```
+```bash
+sudo systemctl start mariadb
+```
+```bash
+sudo systemctl status mariadb
+```
+```bash
+sudo systemctl stop mariadb
+```
 
-- sudo systemctl stop mariadb
-
+```bash
 mysql -u root -p
-
+```
+```bash
 show databases;
+```
 
 ## With postres SQL
 
-- sudo service postgresql stop
-- sudo service postgresql start
-- sudo service postgresql restart
+```bash
+sudo service postgresql restart
+```
+```bash
+sudo service postgresql start
+```
+```bash
+sudo service postgresql stop
+```
 
-- sudo -u postgres psql
+```bash
+sudo -u postgres psql
+```
 
 -- List all databases via \l (or \list), or \l+ for more details
+```bash
 postgres=# \l
+```
