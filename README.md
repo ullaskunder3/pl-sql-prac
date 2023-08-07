@@ -14,10 +14,7 @@ varchar, int, date, float, boolean
 step 1:
 CREATE TABLE student ();
 
-
-<!-- start -->
-
-<!-- mariaDB -->
+## With MariaDb
 
 sudo systemctl status mariadb
 sudo systemctl enable mariadb
@@ -29,7 +26,7 @@ mysql -u root -p
 
 show databases;
 
-<!-- postres SQL -->
+## With postres SQL
 
 sudo service postgresql stop
 sudo service postgresql start
