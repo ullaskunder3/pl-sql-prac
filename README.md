@@ -16,11 +16,11 @@ CREATE TABLE student ();
 
 ## With MariaDb
 
-sudo systemctl status mariadb
-sudo systemctl enable mariadb
-sudo systemctl start mariadb
+- sudo systemctl status mariadb
+- sudo systemctl enable mariadb
+- sudo systemctl start mariadb
 
-sudo systemctl stop mariadb
+- sudo systemctl stop mariadb
 
 mysql -u root -p
 
@@ -28,11 +28,11 @@ show databases;
 
 ## With postres SQL
 
-sudo service postgresql stop
-sudo service postgresql start
-sudo service postgresql restart
+- sudo service postgresql stop
+- sudo service postgresql start
+- sudo service postgresql restart
 
-sudo -u postgres psql
+- sudo -u postgres psql
 
 -- List all databases via \l (or \list), or \l+ for more details
 postgres=# \l
